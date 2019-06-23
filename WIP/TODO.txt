@@ -30,3 +30,10 @@ Pythagoras three https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)
     gradient coloring (Brun til grønn)
 
 https://en.wikipedia.org/wiki/L%C3%A9vy_C_curve
+
+Random pixel Circles
+    som ringene i et tre
+
+cardiod
+
+mandelbrot shader
