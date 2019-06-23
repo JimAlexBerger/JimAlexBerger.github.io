@@ -1,0 +1,77 @@
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+const maxBalls = 10;
+const ballRadius = 5;
+const backgroundColor = "CornflowerBlue";
+
+let ball = new Ball(canvas.width / 2, canvas.height / 2, 10, "pink");
+let tree = generateTree(circleGenerator,[ball]);
+renderBalls(tree,ctx);
+
+function renderBalls(balls,ctx){
+    balls.forEach(function(ball){
+        ball.draw(ctx);
+    });
+}
+
+function generateTree(generator,balls,width,height){
+    let ballNum = 0;
+    let balls = [];
+    while(ballNum < maxBalls){
+        let pos = generator();
+        let ball = new Ball(pos.x,pos.y,ballRadius,"pink");
+        while(!compare(ball, balls)){
+            ball.move();
+            if (ball.position.X + ball.radius > width || ball.position.X - ball.radius < 0) {
+                ball = new Ball(pos.x,pos.y,ballRadius,"pink");
+            }
+            if (ball.position.Y + ball.radius > height || ball.position.Y - ball.radius < 0) {
+                ball = new Ball(pos.x,pos.y,ballRadius,"pink");
+            }
+        }
+        balls.push(ball);
+        ballNum++;
+    }
+    
+    return balls;
+
+    function compare(ball, balls){
+        balls.forEach(function(ball2){
+            let dist = Math.sqrt((ball.x - ball2.x)**(ball.x - ball2.x)+(ball.y - ball2.y)**(ball.y - ball2.y))
+            if(dist < ball.r + ball2.r){
+                return true;
+            }
+        });
+    }
+}
+
+function Ball(x, y, r, color) {
+    this.position = {
+        X: x,
+        Y: y
+    };
+    this.radius = r;
+    this.color = color;
+
+
+    this.move = function() {
+        this.position.X += Math.random();
+        this.position.Y += Math.random();
+    }
+
+    this.draw = function(ctx) {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.position.X, this.position.Y, this.radius, 0, 2 * Math.PI);
+        ctx.fill();
+    }
+}
+
+function circleGenerator(){
+    let  angle = Math.random()*Math.PI*2;
+    return {
+        x: Math.cos(angle)*canvas.width-r*2,
+        y: Math.sin(angle)*canvas.height-r*2
+    }
+}

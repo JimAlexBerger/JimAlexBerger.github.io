@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+    <title> Jim-Alexander </title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../../../minstil.css" />
+    <script src="alternativA.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1> Jim-Alexander Berger Gundersen </h1>
+    </header>
+    <div id="content">
+        <aside w3-include-html="../../../resources/nav.html">
+            <!-- <nav>
+              <ul class="meny">
+                  <li><a href="index.html"> Forside </a> </li>
+                  <li><a href="om.html"> Om Meg </a> </li>
+                  <li><a href="prosjekter.html"> Prosjekter </a>
+                      <ul>
+                          <li> <a href="prosjekter.html#go"> Go Digital </a> </li>
+                          <li> <a href="prosjekter.html#web"> Web </a> </li>
+                          <li> <a href="prosjekter.html#it"> IT og Samfunn </a> </li>
+                          <li> <a href="prosjekter.html#data"> Datamaskinen </a> </li>
+                      </ul>
+                  </li>
+                  <li><a href="brokkoli.html"> Brokkoli </a> </li>
+              </ul>
+          </nav> -->
+        </aside>
+        <div id="mcontent">
+            <div class="overskrift">
+                <h2> Sorterings  visualiserer</h2>
+            </div>
+            <article>
+                <a href="../"> Tilbake </a> <br><br>
+
+                <canvas id="output" height="600" width="1300"></canvas>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <select id="option">
+                        <option value=1>Selection Sort</option>
+                        <option value=2>Bubble Sort</option>
+                        <option value=3>Quick Sort</option>
+                        <option value=4>Counting Sort</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span id="time"></span>
+                        </td>
+                        <td>
+                            <span id="space"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <span id="info"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="range" id="antall" min=2 value=100>
+                            <span id="antallSpan"></span>
+                        </td>
+                        <td>
+                            <input type="range" id="fart" min=5 value=10>
+                            <span id="fartSpan"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="random">Randomize</button>
+                        </td>
+                        <td>
+                            <button id="start">Sorter</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="play">Play</button>
+                        </td>
+                        <td>
+                            <button id="stop">Stop</button>
+                        </td>
+                    </tr>
+                </table>
+
+            </article>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <footer>
+        <p>Jim-Alexander Berger Gundersen</p>
+    </footer>
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+
+</html>

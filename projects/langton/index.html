@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+
+    <title> Langton's Ant </title>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="../minstil.css" />
+    <script src="langton.js"></script>
+    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <h1> Jim-Alexander Berger Gundersen </h1>
+    </header>
+    <div id="content">
+      <aside w3-include-html="../resources/nav.html">
+          <!-- <nav>
+              <ul class="meny">
+                  <li><a href="index.html"> Forside </a> </li>
+                  <li><a href="om.html"> Om Meg </a> </li>
+                  <li><a href="prosjekter.html"> Prosjekter </a>
+                      <ul>
+                          <li> <a href="prosjekter.html#go"> Go Digital </a> </li>
+                          <li> <a href="prosjekter.html#web"> Web </a> </li>
+                          <li> <a href="prosjekter.html#it"> IT og Samfunn </a> </li>
+                          <li> <a href="prosjekter.html#data"> Datamaskinen </a> </li>
+                      </ul>
+                  </li>
+                  <li><a href="brokkoli.html"> Brokkoli </a> </li>
+              </ul>
+          </nav> -->
+      </aside>
+        <div id="mcontent">
+            <div class="overskrift">
+                <h2> Langton's Ant </h2>
+            </div>
+            <article>
+
+                <canvas id="tegneflate" width="700" height="700"></canvas>
+                <button id="start"> Start! </button>
+                <button id="stop"> Stop </button>
+                <button id="restart"> Restart </button>
+                <br>
+                <span>Hvis:</span>
+                <input type="color" id="in1" value="#ffffff">
+                <span>Beveg:</span>
+                <select id="dirInput">
+                  <option value=0> Høyre </option>
+                  <option value=1> Fram </option>
+                  <option value=2> Venstre </option>
+                  <option value=3> Tilbake </option>
+                </select>
+                <span>Gjør ruten:</span>
+                <input type="color" id="out1" value="#000000">
+                  <button id="add"> Legg til regel </button>
+                  <span> Eksempler: </span>
+                  <select id="eksempelSelect">
+                    <option value=0> Ingen </option>
+                    <option value=1> RL </option>
+                    <option value=2> RLR </option>
+                    <option value=3> LLRR </option>
+                    <option value=4> LRRRRRLLR </option>
+                  </select>
+                  <br>
+                  <br>
+
+                <div id="settings">
+
+                </div>
+
+            </article>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <footer>
+        <p>Jim-Alexander Berger Gundersen</p>
+    </footer>
+    <script>
+        w3IncludeHTML();
+    </script>
+</body>
+
+</html>

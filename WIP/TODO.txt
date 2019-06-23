@@ -1,0 +1,32 @@
+﻿-----Startede prosjekter-----
+Circles:
+    Pusse oppp
+dragonCurve
+    farger
+    tiling pattern
+    pusse opp rundt
+promise test
+    endre navn
+	https://www.youtube.com/watch?v=568g8hxJJp4
+    sjekke forskjørsveg
+    pusse opp
+Squares
+    sliders for variabler
+    pusse opp
+sudoku
+    pusse opp
+
+-----Prosjekt Ideer-----
+Brownian tree https://en.wikipedia.org/wiki/Brownian_tree
+    knapper for å velge start location
+        Radio buttons med icon
+    knapper for å velger start stop
+
+Self-avoiding walk https://en.wikipedia.org/wiki/Self-avoiding_walk
+    Kunne endre grid size
+
+Pythagoras three https://en.wikipedia.org/wiki/Pythagoras_tree_(fractal)
+    slider for vinkel
+    gradient coloring (Brun til grønn)
+
+https://en.wikipedia.org/wiki/L%C3%A9vy_C_curve

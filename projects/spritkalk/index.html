@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vinmonopolet - Varer</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://use.fontawesome.com/bcc5da4cc1.css" media="all" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/spritkalk.css" />
+</head>
+
+<body>
+    <header id="mainheader">
+        <h1>VARESØK</h1>
+    </header>
+    <main>
+        <section id="filter">
+            <article class="filterdel">
+                <h2>Kategori</h2>
+                <select id="varetype">
+            <option value="alle">Vis alle</option>
+            <option value="Rødvin">Rødvin</option>
+            <option value="Hvitvin">Hvitvin</option>
+            <option value="Vodka">Vodka</option>
+            <option value="Sider">Sider</option>
+            <option value="Akevitt">Akevitt</option>
+            <option value="Alkoholfri leskedrikk">Alkoholfri leskedrikk</option>
+            <option value="Alkoholfri most">Alkoholfri most</option>
+            <option value="Alkoholfri musserende drikk">Alkoholfri musserende drikk</option>
+            <option value="Alkoholfri vin">Alkoholfri vin</option>
+            <option value="Brennevin, annet">Brennevin, annet</option>
+            <option value="Brown ale">Brown ale</option>
+            <option value="Champagne extra brut">Champagne extra brut</option>
+            <option value="Champagne, brut">Champagne, brut</option>
+            <option value="Druebrennevin">Druebrennevin</option>
+            <option value="Fruktbrennevin">Fruktbrennevin</option>
+            <option value="Fruktvin">Fruktvin</option>
+            <option value="Gin">Gin</option>
+            <option value="Genever">Genever</option>
+            <option value="Pale ale">Pale ale</option>
+            <option value="India pale ale">India pale ale</option>
+            <option value="Klosterstil">Klosterstil</option>
+            <option value="Madeira">Madeira</option>
+            <option value="Musserende vin">Musserende vin</option>
+            <option value="Perlende vin, hvit">Perlende vin, hvit</option>
+            <option value="Rom">Rom</option>
+            <option value="Sherry">Sherry</option>
+            <option value="Spesial">Spesial</option>
+            <option value="Whisky">Whisky</option>
+
+          </select>
+            </article>
+
+            <article class="filterdel">
+                <h2>Alkoholnivå</h2>
+                <div>
+                    <span class="filtertext">Fra </span><span class="filtertext" id="alkFromNum">0</span>
+                </div>
+                <input type="range" id="alkFrom" min="0" max="60" value="0">
+                <div>
+                    <span class="filtertext">Til </span><span class="filtertext" id="alkToNum">0</span>
+                </div>
+                <input type="range" id="alkTo" min="0" max="60" value="60">
+            </article>
+            <article class="filterdel">
+                <h2>Pris</h2>
+                <div>
+                    <span class="filtertext">Fra </span><span class="filtertext" id="priceFromNum">0</span>
+                </div><input type="range" id="priceFrom" value="0" min="0" max="35000">
+
+                <div>
+                    <span class="filtertext">Til </span><span class="filtertext" id="priceToNum">0</span>
+                </div> <input type="range" id="priceTo" value="35000" min="0" max="35000">
+
+            </article>
+
+            <button id="btn">SØK</button>
+        </section>
+        <section class="undersection">
+            <article id="treffut"><i class="fa fa-spinner fa-2x" id="spinner" aria-hidden="true"></i></article>
+            <article class="output" id="output"> </article>
+        </section>
+    </main>
+    <nav>
+        <button id="prev"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i>
+Forrige side</button>
+        <span id="pagecounter"></span>
+        <button id="next">Neste side <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+</button>
+    </nav>
+    <footer>Laget av Mats Løvstrand Berntsen Og Jim-Alexander Berger Gundersen</footer>
+</body>
+
+<script src="scripts/papaparse.js"></script>
+<script src="scripts/spritkalkPapa.js"></script>
+
+</html>

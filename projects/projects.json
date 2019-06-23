@@ -1,0 +1,213 @@
+{
+    "projects": [{
+            "name": "Neural network genetic algorithm",
+            "description": "Vellykket forsøk på eksperimentering med neural network. Den røde prikken skal finne den blå prikken, kun ved å vite sine egne og den blå prikkens koordinater. forbedrer seg over tid ved hjelp av natural selection",
+            "tags": ["neural", "network", "neural network", "genetic", "simulation", "visual", "neuron", "nettverk", "genetikk", "visuelt"],
+            "category": null,
+            "link": "basicNeural/",
+            "img": "basicNeural/thumb.JPG",
+            "popualrity": 0,
+            "date": "2017-06-13"
+        },
+        {
+            "name": "Mandelbrot",
+            "description": "En mandelbrot renderer",
+            "tags": ["fractal", "mandelbrot", "visual", "rendering", "fraktal", "visuelt"],
+            "category": "Fraktal",
+            "link": "mandelbrot/",
+            "img": "mandelbrot/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-24"
+        },
+        {
+            "name": "Desimal Til Binær Konverterer",
+            "description": "Konverterer desimaltall til binærtall, fungerer og med komma",
+            "tags": [],
+            "category": "Matte",
+            "link": "desimalToBinary/",
+            "img": "desimalToBinary/thumb.JPG",
+            "popualrity": 0,
+            "date": "2016-09-25"
+        },
+        {
+            "name": "Umulige knapper",
+            "description": "Knapper som er umulige å trykke på",
+            "tags": [],
+            "category": null,
+            "link": "msButton/",
+            "img": "msButton/thumb.JPG",
+            "popualrity": 0,
+            "date": "2017-03-22"
+        },
+        {
+            "name": "Primtallsfaktorisering",
+            "description": "Bryter ett tall opp i dets primtall faktorer",
+            "tags": [],
+            "category": "Matte",
+            "link": "primtallFaktorisering/",
+            "img": "primtallFaktorisering/thumb.JPG",
+            "popualrity": 0,
+            "date": "2016-12-23"
+        },
+        {
+            "name": "Random Walker Banner",
+            "description": "Generer ett mønster basert på tilfeldighet",
+            "tags": [],
+            "category": null,
+            "link": "randomWalker/",
+            "img": "randomWalker/thumb.png",
+            "popualrity": 0,
+            "date": "2017-01-09"
+        },
+        {
+            "name": "Enkel telfonnummer input",
+            "description": "Gjør det enkelt å skrive inn telefonnummer",
+            "tags": [],
+            "category": "Matte",
+            "link": "tlfPrimtall/",
+            "img": "tlfPrimtall/thumb.JPG",
+            "popualrity": 0,
+            "date": "2017-05-07"
+        },
+        {
+            "name": "Ball Fysikk",
+            "description": "",
+            "tags": [],
+            "category": null,
+            "link": "ballFysikk/",
+            "img": "ballFysikk/thumb.png",
+            "popualrity": 0,
+            "date": "2016-10-27"
+        },
+        {
+            "name": "Fraktal Tre",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "fraktalTre",
+            "img": "fraktalTre/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-18"
+        },
+        {
+            "name": "IFS i polygon",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "ifs/",
+            "img": "ifs/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-23"
+        },
+        {
+            "name": "Koch Kurve",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "kochKurve/",
+            "img": "kochKurve/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-18"
+        },
+        {
+            "name": "Langtons ant",
+            "description": "",
+            "tags": [],
+            "category": null,
+            "link": "langton/",
+            "img": "langton/thumb.png",
+            "popualrity": 0,
+            "date": "2016-09-25"
+        },
+        {
+            "name": "Monte carlo PI",
+            "description": "",
+            "tags": [],
+            "category": "Matte",
+            "link": "monteCarlo/",
+            "img": "monteCarlo/thumb.JPG",
+            "popualrity": 0,
+            "date": "2016-09-25"
+        },
+        {
+            "name": "Roterende Kuber WebGL",
+            "description": "",
+            "tags": [],
+            "category": null,
+            "link": "rotatingCubes",
+            "img": "rotatingCubes/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-15"
+        },
+        {
+            "name": "Sierpinskis Carpet",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "sierpinskiCarpet/",
+            "img": "sierpinskiCarpet/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-18"
+        },
+        {
+            "name": "Sierpinskis Triangle",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "sierpinskiTriangle/",
+            "img": "sierpinskiTriangle/thumb.png",
+            "popualrity": 0,
+            "date": "2016-11-18"
+        },
+        {
+            "name": "Sorterings visualiserer",
+            "description": "",
+            "tags": [],
+            "category": null,
+            "link": "sortering/",
+            "img": "sortering/thumb.png",
+            "popualrity": 0,
+            "date": "2016-10-13"
+        },
+        {
+            "name": "Vinmonopolet søker",
+            "description": "",
+            "tags": [],
+            "category": null,
+            "link": "spritkalk/",
+            "img": "spritkalk/thumb.JPG",
+            "popualrity": 0,
+            "date": "2016-11-10"
+        },
+        {
+            "name": "Tilfeldig generert fraktal tre",
+            "description": "",
+            "tags": [],
+            "category": "Fraktal",
+            "link": "treOblig1/",
+            "img": "treOblig1/thumb.png",
+            "popualrity": 0,
+            "date": "2016-09-25"
+        },
+        {
+            "name": "Sudoku solver",
+            "description": "Løser enhver sudoku du kan finne",
+            "tags": ["sudoku","puzzle"],
+            "category": null,
+            "link": "sudoku/",
+            "img": "sudoku/thumb.PNG",
+            "popualrity": 0,
+            "date": "2017-08-22"
+        }
+    ],
+    "_comments": [{
+        "name": "",
+        "description": "",
+        "tags": [],
+        "category": null,
+        "link": null,
+        "img": null,
+        "popualrity": 0,
+        "date":null
+    }]
+}

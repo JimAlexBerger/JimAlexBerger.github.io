@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Grid Test</title>
+        <style media="screen">
+            #content {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(3, calc(100vh / 3));
+                grid-template-areas:
+                ". .   ."
+                ". img ."
+                ". .   .";
+                justify-items: center;
+            }
+
+            #image {
+                grid-area: img;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="content">
+            <img src="cat.jpg" id="image"/>
+        </div>
+    </body>
+</html>
